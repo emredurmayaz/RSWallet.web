@@ -1,0 +1,17 @@
+{
+  "data": [{
+      "code": "S",
+      "name": "Siparis 1",
+      "categoryId": "123-123as-123as-da-123-1asd",
+      "price": 10,
+      "id": "12312*123-asd-123-asd-123-123a"
+    },
+    {
+      "code": "A",
+      "name": "Siparis 2",
+      "categoryId": "223-123as-123as-da-123-1asd",
+      "price": 20,
+      "id": "22312*123-asd-123-asd-123-123a"
+    }
+  ]
+}

@@ -1,11 +1,11 @@
-import { Component, OnInit,ViewEncapsulation } from '@angular/core';
-import {SortablejsOptions} from "angular-sortablejs";
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { SortablejsOptions } from "angular-sortablejs/dist";
 
 @Component({
-    selector: 'ms-sortable',
-	templateUrl:'./sortable-component.html',
+	selector: 'ms-sortable',
+	templateUrl: './sortable-component.html',
 	styleUrls: ['./sortable-component.scss'],
-    encapsulation: ViewEncapsulation.None
+	encapsulation: ViewEncapsulation.None
 })
 export class SortableDemoComponent implements OnInit {
 
@@ -22,44 +22,44 @@ export class SortableDemoComponent implements OnInit {
 		animation: 300
 	};
 
-	constructor() {}
+	constructor() { }
 
 	ngOnInit() {
-	
+
 
 		this.list1 = [
-		{
-			image: 'assets/img/user-1.jpg',
-			name: 'Alyson',
-			subject: 'Cras sit',
-			content: 'Tempus viverra turpis'
-		},
-		{
-			image: 'assets/img/user-2.jpg',
-			name: 'Yan',
-		    subject: 'Cras sit',
-			content: 'Tempus viverra turpis'
-		},
-		{
-			image: 'assets/img/user-3.jpg',
-			name: 'Melissa',
-			subject: 'Cras sit',
-			content: 'Tempus viverra turpis'
-		},
-		{
-			image: 'assets/img/user-4.jpg',
-			name: 'Bannie',
-			subject: 'Cras sit',
-			content: 'Tempus viverra turpis'
-		},
-		{
-			image: 'assets/img/user-1.jpg',
-			name: 'Janita',
-			subject: 'Cras sit',
-			content: 'Tempus viverra turpis'
-		}];
+			{
+				image: 'assets/img/user-1.jpg',
+				name: 'Alyson',
+				subject: 'Cras sit',
+				content: 'Tempus viverra turpis'
+			},
+			{
+				image: 'assets/img/user-2.jpg',
+				name: 'Yan',
+				subject: 'Cras sit',
+				content: 'Tempus viverra turpis'
+			},
+			{
+				image: 'assets/img/user-3.jpg',
+				name: 'Melissa',
+				subject: 'Cras sit',
+				content: 'Tempus viverra turpis'
+			},
+			{
+				image: 'assets/img/user-4.jpg',
+				name: 'Bannie',
+				subject: 'Cras sit',
+				content: 'Tempus viverra turpis'
+			},
+			{
+				image: 'assets/img/user-1.jpg',
+				name: 'Janita',
+				subject: 'Cras sit',
+				content: 'Tempus viverra turpis'
+			}];
 
-		
+
 	}
 }
 

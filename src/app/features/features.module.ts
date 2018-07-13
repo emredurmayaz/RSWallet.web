@@ -2,17 +2,17 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { ColorPickerModule} from 'ngx-color-picker';
+import { ColorPickerModule } from 'ngx-color-picker';
 import { DragulaModule } from 'ng2-dragula/ng2-dragula';
-import { SortablejsModule, SortablejsOptions} from "angular-sortablejs";
+import { SortablejsModule, SortablejsOptions } from "angular-sortablejs/dist";
 import { ResizableModule } from 'angular-resizable-element';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { DemoMaterialModule } from '../shared/demo.module';
 
-import { CropperComponent}  from './image-cropper/image-cropper.component';
-import { ColorPickerComponent}  from './color-picker/color-picker.component';
-import { DragulaDemoComponent}  from './dragula/dragula.component';
-import { SortableDemoComponent}  from './sortablejs/sortable.component';
+import { CropperComponent } from './image-cropper/image-cropper.component';
+import { ColorPickerComponent } from './color-picker/color-picker.component';
+import { DragulaDemoComponent } from './dragula/dragula.component';
+import { SortableDemoComponent } from './sortablejs/sortable.component';
 
 import { FeaturesRoutes } from './features.routing';
 
@@ -33,7 +33,7 @@ const sortablejsConfig: SortablejsOptions = {
     DemoMaterialModule,
     RouterModule.forChild(FeaturesRoutes)
   ],
-  declarations: [ 
+  declarations: [
     CropperComponent,
     ColorPickerComponent,
     DragulaDemoComponent,
@@ -41,4 +41,4 @@ const sortablejsConfig: SortablejsOptions = {
   ]
 })
 
-export class FeaturesModule {}
+export class FeaturesModule { }
