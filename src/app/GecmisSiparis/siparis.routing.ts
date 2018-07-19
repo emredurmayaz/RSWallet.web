@@ -1,4 +1,4 @@
-import { TestComponent } from './test/test.component';
+import { SiparisComponent } from './test/siparis.component';
 import { Routes } from '@angular/router';
 
 
@@ -8,5 +8,6 @@ export const TestRoutes: Routes = [{
 },
 {
   path: 'home',
-  component: TestComponent
+  component: SiparisComponent
+
 }];

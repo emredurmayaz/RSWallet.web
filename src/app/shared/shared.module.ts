@@ -17,7 +17,7 @@ import { ToggleFullscreenDirective } from './fullscreen/toggle-fullscreen.direct
     AccordionLinkDirective,
     AccordionDirective,
     ToggleFullscreenDirective
-   ],
-  providers: [ MenuItems, HorizontalMenuItems ]
+  ],
+  providers: [MenuItems, HorizontalMenuItems]
 })
 export class SharedModule { }

@@ -1,0 +1,28 @@
+<div id="baslik">Geçmiş Siparişlerim</div>
+<hr color="#175466" size="4">
+<br>
+
+<p-table [value]="cars" selectionMode="single" [(selection)]="selectedCar" dataKey="siparis_id">
+  <ng-template pTemplate="header">
+    <tr>
+      <th class="table_ust">Yemek</th>
+      <th class="table_ust">Çorba</th>
+      <th class="table_ust">İçecek</th>
+      <th class="table_ust">Tatlı</th>
+      <th class="table_ust">Adet</th>
+      <th class="table_ust">Fiyat</th>
+      <th class="table_ust">Tarih</th>
+    </tr>
+  </ng-template>
+  <ng-template pTemplate="body" let-rowData>
+    <tr align="center" [pSelectableRow]="rowData" (dblclick)="clicked(rowData)">
+      <td class="table_alt">{{rowData.yemek}}</td>
+      <td class="table_alt">{{rowData.corba}}</td>
+      <td class="table_alt">{{rowData.icecek}}</td>
+      <td class="table_alt">{{rowData.tatli}}</td>
+      <td class="table_alt">{{rowData.adet}}</td>
+      <td class="table_alt">{{rowData.fiyat}} ₺</td>
+      <td class="table_alt">{{rowData.tarih}}</td>
+    </tr>
+  </ng-template>
+</p-table>
