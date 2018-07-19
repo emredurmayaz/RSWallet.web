@@ -274,6 +274,11 @@ const MENUITEMS: Menu[] = [
       { state: '404', name: '404' },
       { state: '503', name: '503' }
     ]
+  }, {
+    state: 'bakiye',
+    name: 'Bakiye Geçmişi',
+    type: 'link',
+    icon: 'explore'
   }
 
 ];

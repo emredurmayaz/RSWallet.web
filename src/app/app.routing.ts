@@ -69,7 +69,10 @@ export const AppRoutes: Routes = [{
   }, {
     path: 'ecommerce',
     loadChildren: './ecommerce/ecommerce.module#EcommerceDemoModule'
-  }]
+  }, {
+    path: 'bakiye',
+    loadChildren: './bakiye/bakiye.module#BakiyeModule'
+  },]
 }, {
   path: '',
   component: AuthLayoutComponent,
