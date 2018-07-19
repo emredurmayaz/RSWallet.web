@@ -22,6 +22,12 @@ export interface Menu {
 
 const MENUITEMS: Menu[] = [
   {
+    state: 'siparis',
+    name: 'Sipariş Ver',
+    type: 'link',
+    icon: 'explore'
+  },
+  {
     state: 'siparisver',
     name: 'Sipariş Ver',
     type: 'link',

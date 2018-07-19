@@ -16,7 +16,12 @@ export const AppRoutes: Routes = [{
   }, {
     path: 'test',
     loadChildren: './test/test.module#TestModule'
-  }, {
+  },
+  {
+    path: 'siparis',
+    loadChildren: './siparis/siparis.module#SiparisModule'
+  },
+  {
     path: 'apps',
     loadChildren: './apps/apps.module#AppsModule'
   }, {

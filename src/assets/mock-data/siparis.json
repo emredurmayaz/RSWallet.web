@@ -1,0 +1,49 @@
+{
+  "data": [{
+      "productId": "product1",
+      "code": "1a2b-3c4d-5e6f-1111",
+      "productName": "Pilav",
+      "categoryId": "1a2b-3c4d-5e6f-3333",
+      "price": 3,
+      "companyId": "1a2b-3c4d-5e6f-2221",
+      "isDeleted": false,
+      "createBy": "Fatih",
+      "updateBy": "Fatih"
+
+    },
+    {
+      "productId": "product2",
+      "code": "1a2b-3c4d-5e6f-1112",
+      "productName": "Nohut",
+      "categoryId": "1a2b-3c4d-5e6f-3331",
+      "price": 3.5,
+      "companyId": "1a2b-3c4d-5e6f-2222",
+      "isDeleted": false,
+      "createBy": "Fatih",
+      "updateBy": "Fatih"
+
+    }, {
+      "productId": "product3",
+      "code": "1a2b-3c4d-5e6f-1113",
+      "productName": "Köfte",
+      "categoryId": "1a2b-3c4d-5e6f-3332",
+      "price": 4,
+      "companyId": "1a2b-3c4d-5e6f-2223",
+      "isDeleted": false,
+      "createBy": "Fatih",
+      "updateBy": "Fatih"
+
+    }, {
+      "productId": "product4",
+      "code": "1a2b-3c4d-5e6f-1114",
+      "productName": "Ayran",
+      "categoryId": "1a2b-3c4d-5e6f-3334",
+      "price": 1,
+      "companyId": "1a2b-3c4d-5e6f-2224",
+      "isDeleted": false,
+      "createBy": "Fatih",
+      "updateBy": "Fatih"
+
+    }
+  ]
+}
