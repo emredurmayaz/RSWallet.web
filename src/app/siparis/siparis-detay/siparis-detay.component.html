@@ -1,0 +1,8 @@
+<p-pickList [source]="recs" [target]="list2" [responsive]="true" sourceHeader="Yemek Listesi" targetHeader="Alınan Yemekler"
+  filterBy="productName" dragdrop="true">
+  <ng-template let-rowData pTemplate="item">
+    <div class="ui-helper-clearfix"></div>
+    <div style="font-size:14px;float:right;margin:15px 5px 0 0">{{rowData.productName}} - {{rowData.price}} - {{rowData.productId}}</div>
+  </ng-template>
+</p-pickList>
+<button pButton type="button" (click)="onay()" label="Satın Al"></button>
