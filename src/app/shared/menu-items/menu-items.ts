@@ -20,7 +20,7 @@ export interface Menu {
   children?: ChildrenItems[];
 }
 
-const MENUITEMS : Menu[] = [
+const MENUITEMS: Menu[] = [
   {
     state: 'home',
     name: 'HOME',
@@ -33,13 +33,13 @@ const MENUITEMS : Menu[] = [
     type: 'sub',
     icon: 'apps',
     badge: [
-      {type: 'red', value: '5'}
+      { type: 'red', value: '5' }
     ],
     children: [
-      {state: 'calendar', name: 'CALENDAR'},
-      {state: 'messages', name: 'MESSAGES'},
-      {state: 'social', name: 'SOCIAL'},
-      {state: 'chat', name: 'CHAT'}
+      { state: 'calendar', name: 'CALENDAR' },
+      { state: 'messages', name: 'MESSAGES' },
+      { state: 'social', name: 'SOCIAL' },
+      { state: 'chat', name: 'CHAT' }
     ]
   },
   {
@@ -48,13 +48,13 @@ const MENUITEMS : Menu[] = [
     type: 'sub',
     icon: 'library_books',
     badge: [
-      {type: 'red', value: '5'}
+      { type: 'red', value: '5' }
     ],
     children: [
-      {state: 'colorpicker', name: 'COLOR PICKER'},
-      {state: 'cropper', name: 'CROPPER'},
-      {state: 'dragula', name: 'DRAGULA'},
-      {state: 'sortable', name: 'SORTABLE'}
+      { state: 'colorpicker', name: 'COLOR PICKER' },
+      { state: 'cropper', name: 'CROPPER' },
+      { state: 'dragula', name: 'DRAGULA' },
+      { state: 'sortable', name: 'SORTABLE' }
     ]
   },
   {
@@ -63,28 +63,28 @@ const MENUITEMS : Menu[] = [
     type: 'sub',
     icon: 'equalizer',
     badge: [
-      {type: 'purple', value: '10'}
+      { type: 'purple', value: '10' }
     ],
     children: [
-      {state: 'button', name: 'BUTTON'},
-      {state: 'cards', name: 'CARDS'},
-      {state: 'select', name: 'SELECT'},
-      {state: 'autocomplete', name: 'AUTOCOMPLETE'},
-      {state: 'chips', name: 'CHIPS'},
-      {state: 'input', name: 'INPUT'},
-      {state: 'checkbox', name: 'CHECKBOX'},
-      {state: 'radio', name: 'RADIO'},
-      {state: 'toolbar', name: 'TOOLBAR'},
-      {state: 'lists', name: 'LISTS'},
-      {state: 'grid', name: 'GRID'},
-      {state: 'progress', name: 'PROGRESS'},
-      {state: 'tabs', name: 'TABS'},
-      {state: 'switch', name: 'SWITCH'},
-      {state: 'tooltip', name: 'TOOLTIP'},
-      {state: 'menu', name: 'MENU'},
-      {state: 'slider', name: 'SLIDER'},
-      {state: 'snackbar', name: 'SNACKBAR'},
-      {state: 'dialog', name: 'DIALOG'}
+      { state: 'button', name: 'BUTTON' },
+      { state: 'cards', name: 'CARDS' },
+      { state: 'select', name: 'SELECT' },
+      { state: 'autocomplete', name: 'AUTOCOMPLETE' },
+      { state: 'chips', name: 'CHIPS' },
+      { state: 'input', name: 'INPUT' },
+      { state: 'checkbox', name: 'CHECKBOX' },
+      { state: 'radio', name: 'RADIO' },
+      { state: 'toolbar', name: 'TOOLBAR' },
+      { state: 'lists', name: 'LISTS' },
+      { state: 'grid', name: 'GRID' },
+      { state: 'progress', name: 'PROGRESS' },
+      { state: 'tabs', name: 'TABS' },
+      { state: 'switch', name: 'SWITCH' },
+      { state: 'tooltip', name: 'TOOLTIP' },
+      { state: 'menu', name: 'MENU' },
+      { state: 'slider', name: 'SLIDER' },
+      { state: 'snackbar', name: 'SNACKBAR' },
+      { state: 'dialog', name: 'DIALOG' }
     ]
   },
   {
@@ -93,8 +93,8 @@ const MENUITEMS : Menu[] = [
     type: 'sub',
     icon: 'center_focus_weak',
     children: [
-      {state: 'font-awesome', name: 'FONT AWESOME'},
-      {state: 'material-icons', name: 'MATERIAL ICONS'},
+      { state: 'font-awesome', name: 'FONT AWESOME' },
+      { state: 'material-icons', name: 'MATERIAL ICONS' },
     ]
   },
   {
@@ -103,10 +103,10 @@ const MENUITEMS : Menu[] = [
     type: 'sub',
     icon: 'looks_3',
     children: [
-      {state: 'editor', name: 'EDITOR'},
-      {state: 'validation', name: 'VALIDATION'},
-      {state: 'upload', name: 'UPLOAD'},
-      {state: 'tree', name: 'TREE'},
+      { state: 'editor', name: 'EDITOR' },
+      { state: 'validation', name: 'VALIDATION' },
+      { state: 'upload', name: 'UPLOAD' },
+      { state: 'tree', name: 'TREE' },
     ]
   },
   {
@@ -115,17 +115,18 @@ const MENUITEMS : Menu[] = [
     type: 'sub',
     icon: 'format_line_spacing',
     badge: [
-      {type: 'blue-grey', value: '8'
+      {
+        type: 'blue-grey', value: '8'
       }
     ],
     children: [
-      {state: 'fullscreen', name: 'FULLSCREEN'},
-      {state: 'editing', name: 'EDITING'},
-      {state: 'filter', name: 'FILTER'},
-      {state: 'paging', name: 'PAGING'},
-      {state: 'sorting', name: 'SORTING'},
-      {state: 'pinning', name: 'PINNING'},
-      {state: 'selection', name: 'SELECTION'},
+      { state: 'fullscreen', name: 'FULLSCREEN' },
+      { state: 'editing', name: 'EDITING' },
+      { state: 'filter', name: 'FILTER' },
+      { state: 'paging', name: 'PAGING' },
+      { state: 'sorting', name: 'SORTING' },
+      { state: 'pinning', name: 'PINNING' },
+      { state: 'selection', name: 'SELECTION' },
     ]
   },
   {
@@ -134,15 +135,16 @@ const MENUITEMS : Menu[] = [
     type: 'sub',
     icon: 'show_chart',
     badge: [
-      {type: 'blue-grey', value: '4'
+      {
+        type: 'blue-grey', value: '4'
       }
     ],
     children: [
-      {state: 'bar-charts', name: 'BAR'},
-      {state: 'pie-charts', name: 'PIE'},
-      {state: 'line-charts', name: 'LINE'},
-      {state: 'mixed-charts', name: 'MIXED'},
-      {state: 'ng2-charts', name: 'NG2 CHARTS'},
+      { state: 'bar-charts', name: 'BAR' },
+      { state: 'pie-charts', name: 'PIE' },
+      { state: 'line-charts', name: 'LINE' },
+      { state: 'mixed-charts', name: 'MIXED' },
+      { state: 'ng2-charts', name: 'NG2 CHARTS' },
     ]
   },
   {
@@ -151,12 +153,13 @@ const MENUITEMS : Menu[] = [
     type: 'sub',
     icon: 'navigation',
     badge: [
-      {type: 'green', value: 'new'
+      {
+        type: 'green', value: 'new'
       }
     ],
     children: [
-      {state: 'google', name: 'GOOGLE'},
-      {state: 'leaflet', name: 'LEAFLET'}
+      { state: 'google', name: 'GOOGLE' },
+      { state: 'leaflet', name: 'LEAFLET' }
     ]
   },
   {
@@ -165,20 +168,20 @@ const MENUITEMS : Menu[] = [
     type: 'sub',
     icon: 'web',
     children: [
-      {state: 'basic', name: 'BASIC'},
-     
+      { state: 'basic', name: 'BASIC' },
+
     ]
   },
-    {
+  {
     state: 'pages',
     name: 'PAGES',
     type: 'sub',
     icon: 'web',
     children: [
-      {state: 'about', name: 'ABOUT'},
-      {state: 'contact', name: 'CONTACT'},
-      {state: 'pricing', name: 'PRICING'},
-      {state: 'blank', name: 'BLANK'},
+      { state: 'about', name: 'ABOUT' },
+      { state: 'contact', name: 'CONTACT' },
+      { state: 'pricing', name: 'PRICING' },
+      { state: 'blank', name: 'BLANK' },
     ]
   },
   {
@@ -187,8 +190,8 @@ const MENUITEMS : Menu[] = [
     type: 'sub',
     icon: 'person',
     children: [
-      {state: 'userlist', name: 'USER LIST'},
-      {state: 'userprofile', name: 'USER PROFILE'},
+      { state: 'userlist', name: 'USER LIST' },
+      { state: 'userprofile', name: 'USER PROFILE' },
     ]
   },
   {
@@ -197,9 +200,9 @@ const MENUITEMS : Menu[] = [
     type: 'sub',
     icon: 'person',
     children: [
-      {state: 'gallery-v1', name: 'GALLERY SIMPLE'},
-      {state: 'gallery-v2', name: 'GALLERY ADVANCED'},
-      {state: 'gallery-v3', name: 'GALLERY 3RD PARTY'}
+      { state: 'gallery-v1', name: 'GALLERY SIMPLE' },
+      { state: 'gallery-v2', name: 'GALLERY ADVANCED' },
+      { state: 'gallery-v3', name: 'GALLERY 3RD PARTY' }
     ]
   },
   {
@@ -208,10 +211,10 @@ const MENUITEMS : Menu[] = [
     type: 'sub',
     icon: 'person',
     children: [
-      {state: 'ecommerce-product', name: 'PRODUCT LISTING'},
-      {state: 'ecommerce-product-detail', name: 'PRODUCT DETAIL'},
-      {state: 'ecommerce-cart', name: 'CART'},
-      {state: 'ecommerce-checkout', name: 'CHECKOUT'}
+      { state: 'ecommerce-product', name: 'PRODUCT LISTING' },
+      { state: 'ecommerce-product-detail', name: 'PRODUCT DETAIL' },
+      { state: 'ecommerce-cart', name: 'CART' },
+      { state: 'ecommerce-checkout', name: 'CHECKOUT' }
     ]
   },
   {
@@ -220,10 +223,10 @@ const MENUITEMS : Menu[] = [
     type: 'sub',
     icon: 'security',
     children: [
-      {state: 'login', name: 'LOGIN'},
-      {state: 'register', name: 'REGISTER'},
-      {state: 'forgot-password', name: 'FORGOT'},
-      {state: 'lockscreen', name: 'LOCKSCREEN'}
+      { state: 'login', name: 'LOGIN' },
+      { state: 'register', name: 'REGISTER' },
+      { state: 'forgot-password', name: 'FORGOT' },
+      { state: 'lockscreen', name: 'LOCKSCREEN' }
     ]
   },
   {
@@ -232,9 +235,14 @@ const MENUITEMS : Menu[] = [
     type: 'sub',
     icon: 'error_outline',
     children: [
-      {state: '404', name: '404'},
-      {state: '503', name: '503'}
+      { state: '404', name: '404' },
+      { state: '503', name: '503' }
     ]
+  }, {
+    state: 'bakiye',
+    name: 'Bakiye Geçmişi',
+    type: 'link',
+    icon: 'explore'
   }
 ];
 

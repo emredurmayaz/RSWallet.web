@@ -1,0 +1,33 @@
+{
+  "data": [{
+      "code": "S",
+      "id": "123513-35asd",
+      "date": "2018/10/12",
+      "price": 10,
+      "tip": "yüklendi"
+    },
+    {
+      "code": "A",
+      "id": "asc1532-askjd55",
+      "date": "2018/05/11",
+      "price": 15,
+      "tip": "harcandı"
+    },
+    {
+      "code": "B",
+      "id": "asc1as2-askjd55",
+      "date": "2018/07/03",
+      "price": 12,
+      "tip": "harcandı"
+    },
+
+    {
+      "code": "D",
+      "id": "a23c1as2-askjd55",
+      "date": "2018/04/09",
+      "price": 17,
+      "tip": "yüklendi"
+    }
+  ]
+
+}
