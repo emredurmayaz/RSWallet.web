@@ -1,0 +1,75 @@
+<div class="ui-grid ui-grid-responsive ui-grid-pad ui-fluid" style="margin: 10px 0px">
+
+
+  <div class="ui-grid-row">
+    <div class="ui-grid-col-1" id="l">
+      İSİM:
+    </div>
+
+    <div class="ui-grid-col-3">
+      <input id="profilim_isim" pInputText type="text" [disabled]="isDisabled" [(ngModel)]="rec.name" />
+      <button id="k" class="fa-1x fa fa-edit" (click)="isDisabled = !isDisabled;"></button>
+    </div>
+  </div>
+</div>
+
+
+<div class="ui-grid ui-grid-responsive ui-grid-pad ui-fluid" style="margin: 10px 0px">
+  <div class="ui-grid-row">
+    <div class="ui-grid-col-1" id="l">
+      TC:
+    </div>
+    <input id="profilim_tc" pInputText type="text" [disabled]="isDisabled" [(ngModel)]="rec.tc" />
+    <div class="ui-grid-col-3">
+    </div>
+  </div>
+
+  <div class="ui-grid ui-grid-responsive ui-grid-pad ui-fluid" style="margin: 10px 0px">
+    <div class="ui-grid-row">
+      <div class="ui-grid-col-1" id="l">
+        TEL:
+      </div>
+      <input id="profilim_tel" pInputText type="text" [disabled]="isDisabled" [(ngModel)]="rec.phone" />
+      <div class="ui-grid-col-3">
+      </div>
+    </div>
+
+    <div class="ui-grid ui-grid-responsive ui-grid-pad ui-fluid" style="margin: 10px 0px">
+      <div class="ui-grid-row">
+        <div class="ui-grid-col-1" id="l">
+          E-MAiL:
+        </div>
+        <input id="profilim_mail" pInputText type="text" [disabled]="isDisabled" [(ngModel)]="rec.email" />
+        <div class="ui-grid-col-3">
+        </div>
+      </div>
+
+      <div class="ui-grid ui-grid-responsive ui-grid-pad ui-fluid" style="margin: 10px 0px">
+        <div class="ui-grid-row">
+          <div class="ui-grid-col-1" id="l">
+            WEB-SİTE:
+          </div>
+          <input id="profilim_web" pInputText type="text" [disabled]="isDisabled" [(ngModel)]="rec.website" />
+          <div class="ui-grid-col-3">
+          </div>
+        </div>
+
+        <div class="ui-grid ui-grid-responsive ui-grid-pad ui-fluid" style="margin: 10px 0px">
+          <div class="ui-grid-row">
+            <div class="ui-grid-col-1" id="l">
+              ŞEHİR:
+            </div>
+            <input id="profilim_sehir" pInputText type="text" [disabled]="isDisabled" [(ngModel)]="rec.city" />
+            <div class="ui-grid-col-3">
+            </div>
+          </div>
+
+          <div class="ui-grid ui-grid-responsive ui-grid-pad ui-fluid" style="margin: 10px 0px">
+            <div class="ui-grid-row">
+              <div class="ui-grid-col-1" id="l">
+                ADRES:
+              </div>
+              <textarea id="profilim_adres" pInputTextarea type="text" [disabled]="isDisabled" [(ngModel)]="rec.address"></textarea>
+              <div class="ui-grid-col-3">
+              </div>
+            </div>

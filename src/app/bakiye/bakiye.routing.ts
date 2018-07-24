@@ -5,9 +5,9 @@ import { BakiyeListeComponent } from './bakiye-liste/bakiye-liste.component';
 
 export const BakiyeRoutes: Routes = [{
   path: '',
-  redirectTo: ''
+  redirectTo: 'bakiye'
 },
 {
-  path: '',
+  path: 'bakiye',
   component: BakiyeListeComponent
 }];

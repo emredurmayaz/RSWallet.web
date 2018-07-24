@@ -13,9 +13,6 @@ export const AppRoutes: Routes = [{
   children: [{
     path: 'home',
     loadChildren: './dashboard/dashboard.module#DashboardModule'
-  }, {
-    path: 'test',
-    loadChildren: './test/test.module#TestModule'
   },
   {
     path: 'siparis',
@@ -27,9 +24,6 @@ export const AppRoutes: Routes = [{
   }, {
     path: 'siparisver',
     loadChildren: './dashboard/dashboard.module#DashboardModule'
-  }, {
-    path: 'test',
-    loadChildren: './test/siparis.module#SiparisModule'
   }, {
     path: 'siparislerim',
     loadChildren: './GecmisSiparis/siparis.module#SiparisModule'
@@ -69,6 +63,9 @@ export const AppRoutes: Routes = [{
   }, {
     path: 'ecommerce',
     loadChildren: './ecommerce/ecommerce.module#EcommerceDemoModule'
+  }, {
+    path: 'profilim',
+    loadChildren: './profilim/profilim.module#ProfilimModule'
   }, {
     path: 'bakiye',
     loadChildren: './bakiye/bakiye.module#BakiyeModule'

@@ -1,0 +1,75 @@
+#profilim_mail {
+  border-radius: 4px;
+  height: 21px;
+  transition-duration: 0.5s;
+  font-family: sans-serif;
+  border: 1px solid #175466;
+}
+
+#profilim:hover {
+  border-color: black
+}
+
+#profilim:active {
+  border-color: black
+}
+
+#k {
+  border-radius: 6px;
+  position: relative;
+  top: -20px;
+  left: 243px;
+  background-color: #f2f4f8;
+  font-size: 24px;
+  color: #0e9e21;
+  border: none;
+}
+
+#l {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#profilim_adres {
+  height: 120px;
+  width: 220px;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+
+.profilim_form {
+  background-color: #000;
+}
+
+#profilim_sehir {
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+
+#profilim_mail {
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+
+#profilim_web {
+  border: 1px solid #000;
+  border-radius: 4px;
+  position: absolute;
+  left: 95px;
+  top: 230px;
+}
+
+#profilim_tc {
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+
+#profilim_tel {
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+
+#profilim_isim {
+  border: 1px solid #000;
+  border-radius: 4px;
+  margin-left: -7px;
+}
